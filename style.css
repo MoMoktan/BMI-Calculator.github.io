@@ -23,10 +23,12 @@ body{
     height: 70vh;
     width: 90%;
     background-color: rgba(116, 139, 206, 0.864); 
+    display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: row;
     margin-top: 50px; 
+
 }
 
 #left-side{
@@ -151,10 +153,11 @@ body{
     text-transform: capitalize;
 }
 
+
+
 @media screen and (max-width: 768px) {
     #container{
-        height: 100vh;
-        width: 100%;
+        
         background-color: rgba(116, 139, 206, 0.864); 
         display: flex;
         justify-content: center;
@@ -162,21 +165,61 @@ body{
         flex-direction: column;
     }
 
-    #left-side, #right-side{
+    #left-side{
         width: 100%;
+        margin-top:60px ;
+        margin-left: 50px;
     }
 
+    #right-side{
+       margin-top: 4.5rem;
+       width: 100%;
+       margin-right: 3.125rem;
+    }
+    #right-side h1{
+        /* margin-top: 4.5rem; */
+        width: 100%;
+        margin-left: 2.125rem;
+        font-size: 1.7rem;
+        margin-top: 12rem;
+     }
+    .input{
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-right: 2rem;
+       margin-top: 4rem;
+    }
     #height, #weight{
         width: 80%;
-        max-width: 300px;
+        max-width: 18.75rem;
+        height: 4rem;
+        width: 16rem;
     }
 
     #dashboard{
         width: 80%;
-        max-width: 380px;
+        max-width:20.75rem;
+        padding: 2rem;
+        width: 21rem;
     }
 
     #left-inside p{
-        margin-left: 1rem; 
+        letter-spacing: 0.25rem;
+        margin-left: -1rem;
+        font-size: 1rem;
+        line-height: 1.9em;
+        margin-bottom: 3rem;
+        font-weight: bold;
     }
+        #left-inside h1{
+            margin-left: 1rem; 
+            font-size: 1.7rem;
+            margin-bottom: 2rem;
+            margin-top: 4rem;
+           
+        }
+    
 }
