@@ -171,17 +171,17 @@ body{
     #left-side{
         
         width: 100%;
-        margin-top:60px ;
-        margin-left: 50px;
+        margin-top: 5rem;
+        margin-right: 1rem;
     }
 
     #right-side{
        margin-top: 4.5rem;
        width: 100%;
-       margin-right: 2rem;
+       margin-right: 14.3rem;
     }
     #right-side h1{
-        /* margin-top: 4.5rem; */
+        margin-left: 3rem;
         width: 100%;
         margin-left: 2.125rem;
         font-size: 1.7rem;
@@ -212,10 +212,10 @@ body{
 
     #left-inside p{
         letter-spacing: 0.25rem;
-        margin-left: -1rem;
+        margin-left: -2rem;
         font-size: 1rem;
         line-height: 1.9em;
-        margin-bottom: 3rem;
+        margin-bottom: 1rem;
         font-weight: bold;
     }
         #left-inside h1{
