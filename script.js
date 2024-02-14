@@ -16,18 +16,18 @@ function CheckBmi(height, weight) {
 
     if (value < 18.5) {
 
-        result.value = "You're in the underweight range";
+        result.value = "You're underweight";
 
     } else if (value >= 18.5 && value <= 24.9) {
 
-        result.value = "You're in the healthy weight range";
+        result.value = "You're at a healthy weight.";
 
     } else if (value >= 25 && value <= 29.9) {
 
-        result.value = "You're in the overweight range";
+        result.value = "You're overweight.";
 
     } else if (value >= 29.9){
         
-        result.value = "You're in the obese range";
+        result.value = "You're obese.";
     }
 }
