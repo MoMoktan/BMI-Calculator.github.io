@@ -157,8 +157,8 @@ body{
 
 @media screen and (max-width: 768px) {
     #container{
-        
-        background-color: rgba(116, 139, 206, 0.864); 
+        background-color: transparent;
+       
         display: flex;
         justify-content: center;
         align-items: center;
@@ -166,6 +166,7 @@ body{
     }
 
     #left-side{
+        background-color: transparent;
         width: 100%;
         margin-top:60px ;
         margin-left: 50px;
@@ -203,7 +204,7 @@ body{
         width: 80%;
         max-width:20.75rem;
         padding: 2rem;
-        width: 21rem;
+        width: 27rem;
     }
 
     #left-inside p{
